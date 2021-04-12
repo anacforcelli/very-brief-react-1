@@ -13,15 +13,15 @@ Subindo a pilha, vamos pro Routes.tsx, que vai catar as páginas na pasta /pages
 
 Todas as páginas são tratadas como Componentes (templates reutilizáveis) de React quando usamos o pacote 'react-router-dom' para implementar a navegação, a fim de tornar o programa modular.
 
-Agora começamos a ter de usar neurônios, porque dependendo da complexidade, será melhor montar uma classe ou uma função para definir o componente da sua página. 
+Agora começamos a ter de usar neurônios pois, dependendo da complexidade, será melhor montar uma função (com ou sem Hooks) ou até mesmo uma classe para definir o componente da sua página. 
 
-(Nota pouco importante mas que mexe com a reputação: Existem coisas como o Function Component (FC) e Void Function Component (VFC), mas até agora não vi qual o retorno além de tirar alguma confusão na hora de acessar as funções e variáveis do componente.)
+(Nota pouco importante mas que mexe com a reputação: Existem bibliotecas do React como o Function Component (FC) e Void Function Component (VFC), mas por enquanto não sei no que elas ajudam.)
 
-Usamos funções quando fazemos uma página ou componente mais simples, estático, como uma caixa de texto não interativa. A página /pages/simplePage é um exemplo disso.
+**FAZENDO COMPONENTES**
 
-Usamos classes quando temos que modificar o estado do componente, tornando-o responsivo e mudando o conteúdo. A página /pages/complexPage é um exemplo.
+Usamos funções puras quando fazemos uma página ou componente mais simples, estático, como uma caixa de texto não interativa. A página /pages/simplePage é um exemplo disso.
 
-
+Usamos funções com Hooks (ou classes) quando temos que modificar o estado do componente, tornando-o responsivo e mudando o conteúdo de acordo com o uso. A página /pages/complexPageHooks é um exemplo de função com Hooks (useState, useEffect). 
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
